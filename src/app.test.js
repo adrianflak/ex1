@@ -7,7 +7,7 @@ describe("/test endpoint" , () => {
     it("Test: ", async () => {
         const response = await request.get("/test")
         expect(response.status).toBe(200)
-        expect(response.text).toBe("Hello World")
+        expect(response.text).toBe("Dzien dobry!")
     })
 })
 
